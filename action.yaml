@@ -145,7 +145,7 @@ runs:
       # Add a newline at the beginning, if string is not empty.
       # Replace newline with ` --build-arg=`
       run: |
-        dart pub global activate flutter_release '<1.0.0'
+        dart pub global activate flutter_release 0.2.4
 
         ln=$'\n'
         buildArgs='${{ inputs.build-args }}'
